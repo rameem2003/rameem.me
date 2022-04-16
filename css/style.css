@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+
+/* menu btn */
+.button{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: none;
+    z-index: 10;
+}
+
+.button i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+/* menu btn end */
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+header.active{
+    left: 0;
+}
+
+.title{
+    color: orange;
+    font-weight: bold;
+}
+
+header .imege{
+    margin-top: 20px;
+    background-color: orange;
+    padding: 10px;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .imege img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+header .social{
+    margin-top: 20px;
+}
+header .social ul li{
+    display: inline-block;
+    padding: 10px;
+    margin:  0 20px;
+    border-radius: 5px;
+}
+header .social ul li a{
+    color: white;
+    display: block;
+    font-size: 25px;
+    transition: 0.5s;
+}
+header .social ul li:hover{
+    background-color: orange;
+}
+
+header .social ul li a:hover{
+    color: black;
+}
+
+
+
+header .menu{
+    margin-top: 20px;
+    width: 100%;
+}
+header .menu ul, header .social ul{
+    list-style-type: none;
+    padding: 0;
+}
+header .menu ul li{
+    display: block;
+}
+header .menu ul li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+header .menu ul li a:hover{
+    background-color: orange;
+}
+
+/* header end */
+
+/* main */
+main{
+    padding: 0;
+    margin-left: 346px;
+    overflow-y: hidden;
+    height: auto;
+}
+section{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 100%;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("../img/1home-office-ideal-setup-angle-100843210-large.jpg");
+}
+#home h4{
+    font-size: 35px;
+}
+#home h1{
+    font-size: 50px;
+}
+#home p{
+    font-size: 30px;
+}
+
+#home a{
+    width: 15%;
+    font-weight: bolder;
+}
+
+
+
+
+#about .about-img{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .about-img img{
+    width: 280px;
+    height: 350px;
+    max-width: 100%;
+}
+
+#about .about-info{
+    font-size: 20px;
+}
+#about .about-info span{
+    color: orange;
+}
+
+#about .box{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#about .box span{
+    font-size: 50px;
+    font-weight: bolder;
+    color: orange;
+}
+
+
+
+#service .service-box{
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.service-box span{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-box h1{
+    font-size: 30px;
+}
+
+.service-box span i{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+#portfolio .portfolio-box{
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+    height: 248px;
+    margin: 20px 0;
+}
+
+#portfolio .portfolio-box .imege-box{
+    overflow: hidden;
+}
+#portfolio .portfolio-box img{
+    max-width: 80%;
+    transition: transform 0.5s ease;
+}
+#portfolio .portfolio-box img:hover{
+    transform: scale(1.1);
+}
+
+#portfolio .portfolio-box h3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#portfolio .portfolio-box .link{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#portfolio .portfolio-box .link ul{
+    list-style-type: none;
+}
+#portfolio .portfolio-box .link ul li{
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+}
+#portfolio .portfolio-box .link ul li a{
+    color: white;
+}
+
+#portfolio #more{
+    display: none;
+}
+
+#load_btn{
+    width: 15%;
+    margin: 0 auto;
+}
+
+
+#contact .contact-box{
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#contact .contact-box span{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#contact .contact-box span i{
+    font-size: 22px;
+    color: white;
+}
+
+#contact .contact-box p{
+    text-transform: initial;
+}
+#contact .form-box, .map-box{
+    background-color: white;
+    border-radius: 8px;
+}
+
+#contact .form-box input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 50px;
+    margin: 20px 0;
+}
+#contact .form-box textarea{
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+#foot{
+    min-height: 3vh;
+    background-color: white;
+}
+
+#foot p{
+    font-size: 20px;
+}
+
+
+
+/* main end */
+
+
+
+
+/* responsive */
+@media screen and (max-width: 991px) {
+    header{
+        left: -1000px;
+    }
+
+    main{
+        width: 100% !important;
+        margin: 0;
+    }
+
+    #home h1{
+        font-size: 30px;
+    }
+
+    #home a{
+        width: 35%;
+        font-weight: bolder;
+    }
+
+    #portfolio #load_btn{
+        width: 33%;
+    }
+
+    #contact .map-box{
+        margin: 20px 0;
+    }
+
+    #contact .map-box iframe{
+        height: 200px;
+    }
+
+    .button{
+        display: initial;
+    }
+
+    .button i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+/* responsive end */
