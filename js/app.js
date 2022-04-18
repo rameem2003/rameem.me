@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {
 
 
 load_btn.addEventListener("click", () => {
-    more.style.display = "initial";
+    more.style.display = "flex";
 })
 
 window.onscroll = () => {
