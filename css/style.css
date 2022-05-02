@@ -64,8 +64,8 @@ header .imege{
     margin-top: 20px;
     background-color: orange;
     padding: 10px;
-    height: 220px;
-    width: 220px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -73,8 +73,8 @@ header .imege{
 }
 
 header .imege img{
-    width: 210px;
-    height: 210px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
 }
 
@@ -132,7 +132,7 @@ header .menu ul li a:hover{
 /* main */
 main{
     padding: 0;
-    margin-left: 346px;
+    margin-left: 355px;
     overflow-y: hidden;
     height: auto;
 }
@@ -235,6 +235,39 @@ section{
     color: white;
     font-weight: bolder;
 }
+
+
+
+
+
+#experience .experience-box{
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#experience .style{
+    border-left: 2px solid orange;
+    position: relative;
+}
+
+#experience .style::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+#experience .experience-box span{
+    background-color: orange;
+    border-radius: 50px;
+}
+
 
 
 #portfolio .portfolio-box{
