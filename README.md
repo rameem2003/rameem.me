@@ -7,17 +7,17 @@ ___
 
 <br>
 
-### My website: rameem2003.github.io/Mysite
+### My website: https://rameem2003.github.io/rameem.me
 
 <br>
 
 ### To browse my web site copy it 
 ```
-rameem2003.github.io/rameem.me
+https://rameem2003.github.io/rameem.me
 ```
 
 # Website View
-![webpage](./view.png)
+![view](./view.png)
 ---
 ## Task List
 
