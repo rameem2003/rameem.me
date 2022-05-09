@@ -2,7 +2,7 @@ var btn = document.getElementById("btn");
 var header = document.getElementById("header");
 
 
-var more = document.getElementById("more");
+var portfolioList_load_more = document.querySelector(".portfolioList");
 var load_btn = document.getElementById("load_btn");
 
 
@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {
 
 
 load_btn.addEventListener("click", () => {
-    more.style.display = "flex";
+    portfolioList_load_more.classList.toggle("load");
 })
 
 window.onscroll = () => {

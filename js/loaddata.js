@@ -19,6 +19,69 @@ const portfolio = [
         liveLink : "https://rameem2003.github.io/color_picker/",
         ripoLink : "https://github.com/rameem2003/color_picker",
     },
+
+    {
+        title : "Personal Jakat Calculator",
+        thumbnail : "./img/jakat-calculator-en.png",
+        liveLink : "https://rameem2003.github.io/jakat_calculator/",
+        ripoLink : "https://github.com/rameem2003/jakat_calculator",
+    },
+
+
+    {
+        title : "Surokkha Covid Vaccine website Clone",
+        thumbnail : "./img/surokkhaweb-clone.png",
+        liveLink : "https://rameem2003.github.io/surokkha_web/",
+        ripoLink : "https://github.com/rameem2003/surokkha_web",
+    },
+
+    {
+        title : "Web Hosting Site",
+        thumbnail : "./img/web-hosting-site.png",
+        liveLink : "https://rameem2003.github.io/demo_site/",
+        ripoLink : "https://github.com/rameem2003/demo_site",
+    },
+
+    {
+        title : "JavaScript Translator App",
+        thumbnail : "./img/js_translator_app.png",
+        liveLink : "https://rameem2003.github.io/js_translator/",
+        ripoLink : "https://github.com/rameem2003/js_translator",
+    },
+
+
+    {
+        title : "Calculator App",
+        thumbnail : "./img/calculator.png",
+        liveLink : "https://rameem2003.github.io/calculator/",
+        ripoLink : "https://github.com/rameem2003/calculator",
+    },
+
+
+    {
+        title : "ISTT Batch Website",
+        thumbnail : "./img/istt_batch.png",
+        liveLink : "https://rameem2003.github.io/oursite/",
+        ripoLink : "https://github.com/rameem2003/oursite",
+    },
+
+
+    {
+        title : "Unit Converter App",
+        thumbnail : "./img/unit_converter.png",
+        liveLink : "https://rameem2003.github.io/unit_converter/",
+        ripoLink : "https://github.com/rameem2003/unit_converter",
+    },
+
+
+    {
+        title : "Music App",
+        thumbnail : "./img/music_app.png",
+        liveLink : "https://rameem2003.github.io/music_player/",
+        ripoLink : "https://github.com/rameem2003/music_player",
+    },
+
+
 ]
 
 

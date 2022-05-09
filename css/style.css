@@ -269,6 +269,14 @@ section{
 }
 
 
+#portfolio #portfolioList{
+    height: 582px;
+    overflow: hidden;
+    transition: 0.5s linear;
+}
+#portfolio #portfolioList.load{
+    height: auto;
+}
 
 #portfolio .portfolio-box{
     border-radius: 8px;
