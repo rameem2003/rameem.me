@@ -14,7 +14,11 @@ btn.addEventListener("click", () => {
 
 load_btn.addEventListener("click", () => {
     portfolioList_load_more.classList.toggle("load");
+
+    
 })
+
+
 
 window.onscroll = () => {
     header.classList.remove("active");
