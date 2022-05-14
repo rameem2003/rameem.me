@@ -81,6 +81,14 @@ const portfolio = [
         ripoLink : "https://github.com/rameem2003/music_player",
     },
 
+    {
+        title : "WebPad Text Editor",
+        thumbnail : "./img/web_text_editor.png",
+        liveLink : "https://rameem2003.github.io/text_editor/",
+        ripoLink : "https://github.com/rameem2003/text_editor",
+    },
+
+
 
 ]
 
